@@ -13,12 +13,12 @@ const NAV = [
 ];
 
 const GAMES = [
-  { title: 'Voxel Islands', genre: 'Приключения', online: 148230, rating: 4.9, img: 'https://cdn.poehali.dev/projects/ed83c722-e990-4293-900a-1ee3e74a2b5c/files/9e088451-0d63-454f-8d1b-c852edc8db19.jpg', hot: true },
-  { title: 'Neon Racers', genre: 'Гонки', online: 92640, rating: 4.7, img: 'https://cdn.poehali.dev/projects/ed83c722-e990-4293-900a-1ee3e74a2b5c/files/2d7831b3-95b8-412b-98f5-7853b0b527fe.jpg', hot: true },
-  { title: 'Pirate Royale', genre: 'Битва', online: 210500, rating: 4.8, img: 'https://cdn.poehali.dev/projects/ed83c722-e990-4293-900a-1ee3e74a2b5c/files/cad12e03-2535-4d66-bc0f-b93a7f13269c.jpg', hot: true },
-  { title: 'Voxel Islands 2', genre: 'Симулятор', online: 45120, rating: 4.6, img: 'https://cdn.poehali.dev/projects/ed83c722-e990-4293-900a-1ee3e74a2b5c/files/9e088451-0d63-454f-8d1b-c852edc8db19.jpg', hot: false },
-  { title: 'Turbo Drift', genre: 'Гонки', online: 33890, rating: 4.5, img: 'https://cdn.poehali.dev/projects/ed83c722-e990-4293-900a-1ee3e74a2b5c/files/2d7831b3-95b8-412b-98f5-7853b0b527fe.jpg', hot: false },
-  { title: 'Treasure Wars', genre: 'Битва', online: 78400, rating: 4.9, img: 'https://cdn.poehali.dev/projects/ed83c722-e990-4293-900a-1ee3e74a2b5c/files/cad12e03-2535-4d66-bc0f-b93a7f13269c.jpg', hot: false },
+  { title: 'Voxel Islands', genre: 'Приключения', online: 148230, rating: 4.9, img: 'https://cdn.poehali.dev/projects/ed83c722-e990-4293-900a-1ee3e74a2b5c/bucket/c4526865-0892-434b-8096-81e4cfb838aa.jpg', hot: true },
+  { title: 'Neon Racers', genre: 'Гонки', online: 92640, rating: 4.7, img: 'https://cdn.poehali.dev/projects/ed83c722-e990-4293-900a-1ee3e74a2b5c/bucket/c4526865-0892-434b-8096-81e4cfb838aa.jpg', hot: true },
+  { title: 'Pirate Royale', genre: 'Битва', online: 210500, rating: 4.8, img: 'https://cdn.poehali.dev/projects/ed83c722-e990-4293-900a-1ee3e74a2b5c/bucket/c4526865-0892-434b-8096-81e4cfb838aa.jpg', hot: true },
+  { title: 'Voxel Islands 2', genre: 'Симулятор', online: 45120, rating: 4.6, img: 'https://cdn.poehali.dev/projects/ed83c722-e990-4293-900a-1ee3e74a2b5c/bucket/c4526865-0892-434b-8096-81e4cfb838aa.jpg', hot: false },
+  { title: 'Turbo Drift', genre: 'Гонки', online: 33890, rating: 4.5, img: 'https://cdn.poehali.dev/projects/ed83c722-e990-4293-900a-1ee3e74a2b5c/bucket/c4526865-0892-434b-8096-81e4cfb838aa.jpg', hot: false },
+  { title: 'Treasure Wars', genre: 'Битва', online: 78400, rating: 4.9, img: 'https://cdn.poehali.dev/projects/ed83c722-e990-4293-900a-1ee3e74a2b5c/bucket/c4526865-0892-434b-8096-81e4cfb838aa.jpg', hot: false },
 ];
 
 const CATS = ['Все', 'Приключения', 'Гонки', 'Битва', 'Симулятор', 'Ролевые'];

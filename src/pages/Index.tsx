@@ -47,7 +47,7 @@ export default function Index() {
             <div className="grid h-10 w-10 place-items-center rounded-xl bg-gradient-to-br from-primary to-accent animate-glow">
               <Icon name="Blocks" size={22} className="text-white" />
             </div>
-            <span className="font-display text-2xl font-bold tracking-wider text-gradient">PIXORA</span>
+            <span className="font-display text-2xl font-bold tracking-wider text-gradient">FASTAKRA</span>
           </div>
 
           <nav className="hidden lg:flex items-center gap-1">
@@ -278,7 +278,7 @@ export default function Index() {
             <div className="grid h-9 w-9 place-items-center rounded-xl bg-gradient-to-br from-primary to-accent">
               <Icon name="Blocks" size={18} className="text-white" />
             </div>
-            <span className="font-display text-xl font-bold text-gradient">PIXORA</span>
+            <span className="font-display text-xl font-bold text-gradient">FASTAKRA</span>
           </div>
           <nav className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-muted-foreground">
             {['Каталог', 'Мастерская', 'Сообщества', 'Магазин', 'Поддержка', 'Правила'].map((l) => (
@@ -293,7 +293,7 @@ export default function Index() {
             ))}
           </div>
         </div>
-        <p className="mt-6 text-center text-xs text-muted-foreground">© 2026 PIXORA. Играй, создавай, побеждай.</p>
+        <p className="mt-6 text-center text-xs text-muted-foreground">© 2026 FASTAKRA. Играй, создавай, побеждай.</p>
       </footer>
     </div>
   );

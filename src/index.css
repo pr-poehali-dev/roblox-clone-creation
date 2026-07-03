@@ -4,23 +4,23 @@
 
 @layer base {
   :root {
-    --background: 250 40% 8%;
-    --foreground: 240 20% 98%;
+    --background: 330 100% 97%;
+    --foreground: 262 35% 16%;
 
-    --card: 250 35% 12%;
-    --card-foreground: 240 20% 98%;
+    --card: 0 0% 100%;
+    --card-foreground: 262 35% 16%;
 
-    --popover: 250 35% 12%;
-    --popover-foreground: 240 20% 98%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 262 35% 16%;
 
     --primary: 275 95% 62%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 190 95% 55%;
-    --secondary-foreground: 250 40% 8%;
+    --secondary: 190 90% 50%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 250 25% 18%;
-    --muted-foreground: 240 12% 65%;
+    --muted: 330 40% 93%;
+    --muted-foreground: 262 15% 42%;
 
     --accent: 330 95% 60%;
     --accent-foreground: 0 0% 100%;
@@ -28,8 +28,8 @@
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 250 25% 20%;
-    --input: 250 25% 20%;
+    --border: 330 35% 88%;
+    --input: 330 35% 88%;
     --ring: 275 95% 62%;
 
     --radius: 1rem;
@@ -96,24 +96,15 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply text-foreground;
     font-family: "Rubik", sans-serif;
-    background-image:
-      radial-gradient(
-        circle at 15% 15%,
-        hsl(275 95% 62% / 0.18),
-        transparent 40%
-      ),
-      radial-gradient(
-        circle at 85% 25%,
-        hsl(190 95% 55% / 0.14),
-        transparent 42%
-      ),
-      radial-gradient(
-        circle at 50% 100%,
-        hsl(330 95% 60% / 0.12),
-        transparent 45%
-      );
+    background: linear-gradient(
+      160deg,
+      hsl(0 0% 100%) 0%,
+      hsl(330 100% 96%) 45%,
+      hsl(330 90% 90%) 100%
+    );
+    background-attachment: fixed;
   }
 }
 
@@ -131,8 +122,8 @@
     @apply transition-transform duration-300 hover:scale-105;
   }
   .glass {
-    background: hsl(250 35% 12% / 0.7);
+    background: hsl(0 0% 100% / 0.7);
     backdrop-filter: blur(14px);
-    border: 1px solid hsl(250 25% 30% / 0.5);
+    border: 1px solid hsl(330 35% 88% / 0.7);
   }
 }

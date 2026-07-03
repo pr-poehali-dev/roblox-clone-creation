@@ -121,15 +121,6 @@ export default function Index() {
               alt="hero"
               className="relative w-full rounded-[2rem] border border-white/10 shadow-2xl"
             />
-            <div className="absolute -bottom-4 -left-4 glass flex items-center gap-3 rounded-2xl p-3">
-              <div className="grid h-11 w-11 place-items-center rounded-xl bg-accent">
-                <Icon name="Trophy" size={20} className="text-white" />
-              </div>
-              <div>
-                <div className="text-sm font-semibold">Топ недели</div>
-                <div className="text-xs text-muted-foreground">Pirate Royale</div>
-              </div>
-            </div>
           </div>
         </div>
       </section>

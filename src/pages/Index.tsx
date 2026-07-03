@@ -121,6 +121,17 @@ export default function Index() {
               alt="hero"
               className="relative w-full rounded-[2rem] border border-white/10 shadow-2xl"
             />
+            <div className="mt-4 flex justify-center gap-3">
+              {[0, 1, 2].map((i) => (
+                <Icon
+                  key={i}
+                  name="Heart"
+                  size={24}
+                  className="fill-accent text-accent animate-float"
+                  style={{ animationDelay: `${i * 0.3}s` }}
+                />
+              ))}
+            </div>
           </div>
         </div>
       </section>
